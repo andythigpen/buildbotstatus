@@ -1,0 +1,6 @@
+{% load i18n staticfiles %}
+<img src="{% static "rb/images/spinner.gif" %}"
+      class="loading-indicator" width="16" height="16" border="0" alt="" />
+<script>
+var buildbotstatus_initial = {{ statuses|safe }};
+</script>

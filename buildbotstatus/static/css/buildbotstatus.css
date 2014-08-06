@@ -1,0 +1,29 @@
+
+.buildbot-table {
+    margin: 0.8em 0;
+}
+
+.buildbot-table td {
+    padding: 5px 10px;
+}
+
+.buildbot-success {
+    background-color: #8D4;
+    color: #000;
+    border-color: #4F8530;
+}
+.buildbot-success > a { color: #000; }
+
+.buildbot-warning {
+    color: #FFF;
+    background-color: #FA3;
+    border-color: #C29D46;
+}
+.buildbot-warning > a { color: #FFF; }
+
+.buildbot-failure {
+    color: #000;
+    background-color: #E88;
+    border-color: #A77272;
+}
+.buildbot-failure > a { color: #000; }
